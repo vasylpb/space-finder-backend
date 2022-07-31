@@ -15,10 +15,12 @@
     "aws-cdk": "^2.33.0",
     "aws-cdk-lib": "^2.33.0",
     "constructs": "^10.1.59",
+    "esbuild": "^0.14.51",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   },
   "dependencies": {
+    "aws-sdk": "^2.1185.0",
     "uuid": "^8.3.2"
   }
 }

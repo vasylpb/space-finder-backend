@@ -7,11 +7,13 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Local file",
+      "name": "Debug Local file",
       "runtimeArgs": ["-r", "ts-node/register"],
       "args": ["${relativeFile}"],
       "env": {
-        "AWS_REGION": "eu-west-1"
+        "AWS_REGION": "us-east-1",
+        "TABLE_NAME": "SpacesTable",
+        "PRIMARY_KEY": "spaceId"
       }
     }
   ]

@@ -1,3 +1,27 @@
 @endpoint = https://0gs6xw6mv2.execute-api.us-east-1.amazonaws.com/prod
 
-GET {{endpoint}}/hello/
+GET {{endpoint}}/spaces/
+###
+
+GET {{endpoint}}/spaces?spaceId=730acab7-f79d-4601-b11c-41fb2bcb8d10
+###
+
+GET {{endpoint}}/spaces?location=Madrid
+###
+
+POST {{endpoint}}/spaces/
+Content-Type: application/json
+
+{
+  "location": "Madrid",
+  "name": "Location"
+}
+###
+
+PUT {{endpoint}}/spaces/?spaceId=4eda0ea6-9c6f-4623-bd74-d60e9fb20876
+Content-Type: application/json
+
+{
+  "name": "Location 123"
+}
+###

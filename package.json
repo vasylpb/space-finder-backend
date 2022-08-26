@@ -20,6 +20,8 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
+    "@aws-amplify/auth": "^4.6.1",
+    "aws-amplify": "^4.3.30",
     "aws-sdk": "^2.1185.0"
   }
 }
